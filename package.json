@@ -1,0 +1,20 @@
+{
+  "name": "some-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc --project tsconfig.dist.json",
+    "rimraf": "rimraf ./dist",
+    "compile": "npm run rimraf && npm run tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript-ioc": "^3.2.1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}
